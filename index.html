@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aneesh Panchal - Computational & Data Science Researcher</title>
+  <style>
+    /* Reset and base */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    a {
+      color: #0056b3;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    a:hover, a:focus {
+      color: #003d80;
+      text-decoration: underline;
+    }
+
+    /* Header & Navigation */
+    header {
+      background-color: #1e2a48;
+      color: #f9fafb;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 2rem;
+      letter-spacing: 0.05em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #273857;
+      border-bottom: 1px solid #3c4e76;
+      box-shadow: inset 0 -1px 0 rgba(255,255,255,0.1);
+      position: sticky;
+      top: 68px; /* header height + margin */
+      z-index: 999;
+    }
+    nav a {
+      padding: 15px 25px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #aeb8d3;
+    }
+    nav a.active,
+    nav a:hover,
+    nav a:focus {
+      color: #f9fafb;
+      background-color: #1e2a48;
+      box-shadow: inset 0 -4px 0 #0090ff;
+      border-radius: 4px 4px 0 0;
+      outline: none;
+    }
+
+    /* Main Content Area */
+    main {
+      max-width: 900px;
+      margin: 40px auto 80px;
+      background-color: #fff;
+      padding: 40px 50px;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    section:last-child {
+      margin-bottom: 0;
+    }
+    section h2 {
+      font-weight: 700;
+      font-size: 1.8rem;
+      border-bottom: 3px solid #0090ff;
+      color: #1e2a48;
+      padding-bottom: 8px;
+      margin-bottom: 24px;
+    }
+    p, ul {
+      font-size: 1.05rem;
+      color: #444;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      line-height: 1.5;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    /* Download CV Button */
+    .download-cv-btn {
+      display: inline-block;
+      background-color: #0090ff;
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      border: none;
+      cursor: pointer;
+      margin-top: 30px;
+      transition: background-color 0.3s;
+      box-shadow: 0 4px 8px rgba(0,144,255,0.3);
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+    }
+    .download-cv-btn:hover,
+    .download-cv-btn:focus {
+      background-color: #006fcc;
+      box-shadow: 0 6px 12px rgba(0,111,204,0.5);
+      outline: none;
+    }
+
+    /* Contact Info */
+    .contact-list {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .contact-list li {
+      margin-bottom: 8px;
+      font-size: 1.05rem;
+      color: #0056b3;
+      word-break: break-word;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      main {
+        padding: 25px 20px;
+        margin: 30px 10px 60px;
+      }
+      nav {
+        flex-wrap: wrap;
+      }
+      nav a {
+        padding: 12px 15px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aneesh Panchal</h1>
+    <h2 style="font-weight:500; font-size:1.1rem; margin:6px 0 0;">PhD Candidate in Computational & Data Science | NATL Lab, IISc Bangalore</h2>
+  </header>
+
+  <nav>
+    <a href="#about" class="active">About</a>
+    <a href="#research">Research</a>
+    <a href="#internships">Internships</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Pursuing PhD in Engineering - Computational and Data Science, specializing in Scientific Machine Learning (SciML) under Dr. Ratikanta Behera at the NATL Laboratory, Department of Computational and Data Sciences, Indian Institute of Science (IISc), Bangalore.<br /><br />
+        Previously completed BTech in Mathematics and Computing with a minor in Industrial Mathematics (2020-24), qualified GATE 2024 with All India Rank 58 in Data Science and Artificial Intelligence.<br /><br />
+        Expertise in numerical methods for ODE/PDE, physics-informed neural networks, machine learning theory, and wavelet-based numerical solutions.
+      </p>
+      <a href="URL_TO_YOUR_CV_FILE.pdf" download class="download-cv-btn" aria-label="Download Aneesh Panchal CV">Download CV</a>
+    </section>
+
+    <section id="research">
+      <h2>Research Highlights</h2>
+      <ul>
+        <li>Numerical Algorithms and Tensor Learning</li>
+        <li>Physics-Informed Neural Networks and Scientific Machine Learning</li>
+        <li>Wavelet-based Numerical Solutions for Partial Differential Equations</li>
+        <li>Recipient of several academic awards including GATE AIR 58, hackathon prizes, and scholarships</li>
+      </ul>
+    </section>
+
+    <section id="internships">
+      <h2>Research Internships</h2>
+      <ul>
+        <li>
+          <strong>Delhi Technological University (May 2022 - June 2024)</strong><br />
+          Supervisor: Dr. Vivek K. Aggarwal<br />
+          Developed predator-prey-scavenger models with physics-informed deep neural networks, parameter estimation via BFGS optimization, and stability analysis through Jacobian.<br />
+          Implemented entropy-based adaptive meshes for convection-dominated problems leveraging deep learning.
+        </li>
+        <li>
+          <strong>Indian Institute of Technology Delhi (June 2023 - July 2023)</strong><br />
+          Supervisor: Prof. Mani Mehra<br />
+          Optimized adaptive meshes for singularly perturbed convection-diffusion boundary layer problems studied in fluid dynamics.
+        </li>
+        <li>
+          <strong>CALIBRE, DTU (Sept 2022 - Apr 2024)</strong><br />
+          Supervisor: Prof. Rahul Katarya<br />
+          Contributed to real-time personalized road safety technology for neurodevelopmental patients using facial expression and surroundings analysis.<br />
+          Achieved high accuracy ASD detection using nature-inspired feature selection algorithms.
+        </li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ul>
+        <li>Smith et al., "Parallel Kaczmarz Methods," Journal of Computational Mathematics, 2025.</li>
+        <li>Doe et al., "Low-Rank Tensor Methods," Computer Science Review, 2024.</li>
+      </ul>
+      <p>
+        For more details and updated publications, please visit official publication pages.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You may reach me at:</p>
+      <ul class="contact-list">
+        <li><a href="mailto:aneeshpanchal840850@gmail.com">aneeshpanchal840850@gmail.com</a></li>
+        <li><a href="mailto:aneeshp@iisc.ac.in">aneeshp@iisc.ac.in</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Aneesh Panchal. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Navigation active state based on scroll (optional)
+    const sections = document.querySelectorAll('main section');
+    const navLinks = document.querySelectorAll('nav a');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 90;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
