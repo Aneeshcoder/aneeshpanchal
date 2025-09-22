@@ -128,6 +128,9 @@ ul ul {
   padding-left: 0;
 }
 
+a:-webkit-any-link {
+    text-decoration: none;
+}
 
 ul li {
   margin-bottom: 14px;
