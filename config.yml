@@ -1,0 +1,53 @@
+# -----------------------
+# Site configuration
+# -----------------------
+title: "Aneesh Panchal"
+description: "PhD Student in Computational and Data Sciences, IISc Bangalore"
+author: "Aneesh Panchal"
+email: "aneeshp@iisc.ac.in"
+url: "https://yourdomain.com"   # Replace with your domain later
+baseurl: ""                     # Leave empty if hosting at root
+
+# -----------------------
+# Navigation menu
+# -----------------------
+nav:
+  - name: "About"
+    link: "/index.html"
+  - name: "Publications"
+    link: "/publications.html"
+  - name: "Research"
+    link: "/research.html"
+  - name: "Awards"
+    link: "/awards.html"
+  - name: "Internships"
+    link: "/internships.html"
+  - name: "Download CV"
+    link: "/Curriculum_Vitae.pdf"
+
+# -----------------------
+# Collections (optional)
+# -----------------------
+collections:
+  publications:
+    output: true
+  research:
+    output: true
+  awards:
+    output: true
+  internships:
+    output: true
+
+# -----------------------
+# Build settings
+# -----------------------
+markdown: kramdown
+theme: minima   # or replace with your custom theme
+highlighter: rouge
+
+# -----------------------
+# Plugins
+# -----------------------
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
