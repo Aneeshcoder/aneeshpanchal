@@ -22,6 +22,8 @@ nav:
     link: "/awards.html"
   - name: "Internships"
     link: "/internships.html"
+  - name: "Data Analysis"
+    link: "/data.html"
   - name: "Download CV"
     link: "/Curriculum_Vitae.pdf"
 
@@ -36,6 +38,8 @@ collections:
   awards:
     output: true
   internships:
+    output: true
+  DataAnalysis:
     output: true
 
 # -----------------------
