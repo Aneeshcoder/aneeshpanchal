@@ -6,6 +6,13 @@
   <title>Aneesh Panchal - Awards</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+<style>
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+</style>
 <body>
   <header>
     <h1>Aneesh Panchal</h1>
@@ -18,9 +25,53 @@
     </nav>
   </header>
   <main>
-    <section id="notebook">
-      <h2>Data Analysis Notebook</h2>
-      <iframe src="https://github.com/Aneeshcoder/DS200-M4/blob/main/DS200_M4_DataAnalysis.ipynb"></iframe>
+    <section id="data">
+      <h2>Data Analysis on MGNREGA Dataset (Haryana State)</h2>
+      <p>Important: ''Persondays_of_Central_Liability_so_far'' represents the cumulative number of persondays for which the central government is liable for wage payments under the MGNREGA scheme up to a certain point in time.</p>
+    </section>
+    <section id="fig">
+      <h2>Plot 1.</h2>
+      This line plot shows the general trend that high Persondays generated generally equivalent to high data variation.
+      <img src="figs/plot1.png" alt="Plot 1" />
+    </section>
+    <section id="fig2">
+      <h2>Plot 2.</h2>
+      This scatter plot helps to see the almost linear correlation between the funds spent and the amount of employment generated.
+      <img src="figs/plot2.png" alt="Plot 2" />
+    </section>
+    <section id="fig3">
+      <h2>Plot 3.</h2>
+      This box plot shows that Hisar district generated maximum Persondays while the Faridabad district generated the minimum.
+      <img src="figs/plot3.png" alt="Plot 3" />
+    </section>
+    <section id="fig4">
+      <h2>Plot 4.</h2>
+      This correlation matrix shows the dependence between various numerical features.
+      <img src="figs/plot4.png" alt="Plot 4" />
+    </section>
+    <section id="fig5">
+      <h2>Plot 5.</h2>
+      This line plot shows an increase in the average wage rate over the years with a sudden surge from 2024-25 to 2025-26.
+      <img src="figs/plot5.png" alt="Plot 5" />
+    </section>
+    <section id="fig6">
+      <h2>Plot 6.</h2>
+      This histogram plot shows the average days of employement provided per household lies around 20 days.
+      <img src="figs/plot6.png" alt="Plot 6" />
+    </section>
+    <section id="References">
+      <h2>References</h2>
+      <p><strong>Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)</strong>. Open Government Data (OGD) Platform India. Published 13/09/2023, Updated 03/10/2025.</p>
+      <p>Available at: 
+        <a href="https://www.data.gov.in/resource/district-wise-mgnrega-data-glance" target="_blank" rel="noopener noreferrer">
+          https://www.data.gov.in/resource/district-wise-mgnrega-data-glance
+        </a>.
+      </p>
+      <p>Released under the 
+        <a href="https://data.gov.in/sites/default/files/NDSAP.pdf?_gl=1*1l5aedz*_ga*MjE0MDExMDExNy4xNzU5NTY3MDg1*_ga_2NLK0N9J6V*czE3NTk1NjcwODQkbzEkZzEkdDE3NTk1NjcxNzAkajYwJGwwJGgw" target="_blank" rel="noopener noreferrer">
+          National Data Sharing and Accessibility Policy (NDSAP)
+        </a>.
+      </p>
     </section>
   </main>
 </body>
